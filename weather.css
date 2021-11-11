@@ -36,6 +36,7 @@ li{
 li:first-letter{
     text-transform: capitalize;
 }
+
 .weather-app{
     max-width: 600px;
     margin: 100px auto 0 auto;
@@ -144,4 +145,54 @@ opacity: 0.8;
 }
 .temp-min{
     color:rgb(196, 146, 243);
+}
+@media only screen and (max-width:500px){
+    .we{
+        font-size: 30px;
+    }
+    #icon{
+        height: 60px;
+       
+    }
+    #sj{
+        width: 70px;
+        margin-right: 20px;
+    }
+    .weather-app{
+        max-width: 400;
+        padding: 20px 15px;
+    }
+    #te{
+        font-size: 50px;
+    }
+    .weather-temp .units{
+       font-size: 10px;
+      
+    }
+    .he li{
+        font-size: 12px;
+    }
+    .overview img{
+        height: 50px;
+    }
+   ul #desc {
+      font-size: 15px;
+    }
+    .da{
+        font-size: 13px;
+        text-align: center;
+    }
+    .we-for img{
+        height: 30px;
+        width: 30px;
+        display: block;
+        margin: 0 auto;
+    }
+    .we-tem{
+        font-size: 10.5px;
+        text-align: center;
+    }
+    .gith{
+        font-size: 12px;
+    }
 }
